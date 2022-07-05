@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshkagram</title>
+    <link th:href="@{css/normalize.css}" rel = "stylesheet">
+    <link th:href="@{css/styles.css}" rel = "stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a th:href="@{index.html}">
+                    <img th:src="@{img/all-white-logo.svg}" class="img-header" alt="Logotipo Roshkagram">
+                </a>
+                <nav id="navegacion" class="navegacion">
+                    <a th:href="@{login.html}">Login</a>
+                </nav>
+            </div>
+        </div> <!-- contenedor -->
+    </header>
+    <main class="contenedor contenido-principal">
+        <div>
+            <img th:src="@{img/ilustracion-herov3.svg}" alt="imagen">
+        </div>
+        <div>
+            <p>Donec ullamcorper tincidunt ligula id ultrices. Mauris fermentum neque sed fringilla vehicula. Quisque et eleifend lectus, sit amet commodo leo. In faucibus varius tortor, et porttitor metus. Quisque non augue est. Proin nec quam pulvinar, dapibus ligula nec, pharetra quam. Aenean porta mi vehicula urna suscipit ullamcorper. Fusce tempor, augue ac dictum consectetur, mi mauris euismod lacus, ut placerat magna augue ac ante. Pellentesque pretium mauris id egestas auctor. Pellentesque ultrices magna arcu, vitae porta enim scelerisque ac. Aliquam ac dolor consequat, lacinia sapien id, accumsan nisi. Morbi at consectetur magna. Fusce posuere leo eget efficitur mollis. Nulla congue posuere blandit.</p>
+            <p>Phasellus imperdiet libero porta sollicitudin pharetra. Donec interdum dictum tortor, nec interdum nisl tempor ac. Vivamus in augue rutrum, facilisis ipsum ut, viverra diam. Nam fringilla quis leo quis hendrerit. Quisque porttitor purus et lacus gravida, quis semper nunc luctus. Donec a varius libero, nec pellentesque arcu. Donec ultrices libero porttitor velit dignissim ullamcorper. Integer et ultricies justo.</p>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p class="centrar-texto">Todos los Derechos Reservados</p>
+    </footer>
+</body>
+</html>
